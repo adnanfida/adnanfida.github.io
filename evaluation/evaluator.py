@@ -13,10 +13,11 @@ def calculate_relevance(query, results):
     """Calculates the relevance of search results to a query."""
     # This is a placeholder for a more complex calculation.
     # In a real implementation, we would use NLP or other methods.
-    return len(results)
+    
+    return len(results) / len(query) if len(query) > 0 else 0
 
 def calculate_quality(results):
     """Calculates the quality of search results."""
     # This is a placeholder for a more complex calculation.
     # In a real implementation, we would use NLP or other methods.
-    return len(results)
+    return len(results) if len(results) > 0 else 0
