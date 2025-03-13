@@ -1,4 +1,4 @@
-# adnanfida.github.io
+# aisbx0
 
 ## Evaluation Framework
 
@@ -22,13 +22,12 @@ This framework helps evaluate search algorithm or system performance by loading 
 
 ### Tests
 
-The `tests` directory contains unit tests for the project. These tests ensure the core components of the project function as expected.
+The `tests` directory contains unit tests for the project.
 
 #### Setup
 
-To run the tests, ensure you have `unittest` installed. Most Python environments come with it pre-installed. If not, you can install it using `pip install unittest`.
+To run the tests, navigate to the `tests` directory.
 
 #### Execution
 
-1. Navigate to the root directory of the project.
-2. Run the tests using the following command:
+Execute the tests by running:
